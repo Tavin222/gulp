@@ -1,8 +1,9 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
-const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
+const uglify = require('gulp-uglify');
+
 
 function compriemImg() {
     return gulp.src('./source/images/*')
